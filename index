@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CPHI Korea 2025 Conference & Seminar Time Table</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 40px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .banner {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .banner img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      gap: 10px;
+    }
+
+    .tab-button {
+      padding: 12px 30px;
+      border: none;
+      background-color: #ccc;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+
+    .tab-button.active {
+      background-color: #004040;
+      color: white;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    h2 {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #01b08a;
+      color: #004040;
+      border-radius: 25px;
+      margin: 40px 0 20px;
+      font-size: 1.1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      margin-bottom: 30px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: #004040;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+      }
+      td::before {
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <a href="https://cphik.imasia-passport.com/en/user/register" target="_blank">
+      <img src="EDM-Header.png" alt="CPHI Korea 2025 Registration Banner" />
+    </a>
+  </div>
+
+  <h1>CPHI Korea 2025 Conference & Seminar Time Table</h1>
+
+
+  <div id="conference" class="tab-content active">
+  <h2>26 August (Tue)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organization</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">3F Conference Room 307</td>
+        <td>10:20 - 12:00</td>
+        <td>Future Outlook of Current Issues with Leading AI Companies</td>
+        <td>KITOX (Korea Institute of Toxicology)</td>
+      </tr>
+      <tr>
+        <td>13:00 - 17:00</td>
+        <td>Functional API Certification Seminar</td>
+        <td>MFDS (Ministry of Food and Drug Safety)</td>
+      </tr>
+      <tr>
+        <td>3F Conference Room 308</td>
+        <td>12:00 - 16:00</td>
+        <td>Research Presentation Seminar (*Consultation held simultaneously – Sessions 303B, 304B)</td>
+        <td>NST (National Research Council of Science & Technology)</td>
+      </tr>
+      <tr>
+        <td>3F Conference Room 303/304</td>
+        <td>14:00 - 17:30</td>
+        <td>Research Consultation</td>
+        <td>NST (National Research Council of Science & Technology)</td>
+      </tr>
+      <tr>
+        <td>Rooms 312/313/316/319/323/326</td>
+        <td>09:00 - 18:00</td>
+        <td>Overseas Buyer Consultation Meeting</td>
+        <td>KHFF (Korea Health Functional Food Association)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>27 August (Wed)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organization</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">3F Conference Room 307</td>
+        <td>10:20 - 12:00</td>
+        <td>Cultivated Food</td>
+        <td>CBTP (Chungbuk Technopark)</td>
+      </tr>
+      <tr>
+        <td>13:00 - 17:00</td>
+        <td>Export Strategy Seminar</td>
+        <td>KHFF & HACCP</td>
+      </tr>
+      <tr>
+        <td rowspan="2">3F Conference Room 308</td>
+        <td>10:20 - 12:00</td>
+        <td>KDRA AI Council Launch Ceremony and Forum</td>
+        <td>KDRA (Korea Drug Research Association)</td>
+      </tr>
+      <tr>
+        <td>13:00 - 17:00</td>
+        <td>Innovation Policy Forum</td>
+        <td>KDRA (Korea Drug Research Association)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>28 August (Thu)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organization</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">3F Conference Room 307</td>
+        <td>10:20 - 11:00</td>
+        <td>Todays CEP</td>
+        <td>Marieke van Dalen</td>
+      </tr>
+      <tr>
+        <td>11:20 - 12:00</td>
+        <td>A gap analysis between regulatory requirements on a global scale</td>
+        <td>Marieke van Dalen</td>
+      </tr>
+      <tr>
+        <td>13:00 - 17:00</td>
+        <td>KHFF Trends Seminar & Consultation</td>
+        <td>KHFF (Korea Health Functional Food Association)</td>
+      </tr>
+      <tr>
+        <td rowspan="2">3F Conference Room 308</td>
+        <td>10:20 - 12:00</td>
+        <td>KDRA Korean Society of Convergent Research on Microneedle Systems Seminar</td>
+        <td>KDRA (Korea Drug Research Association)</td>
+      </tr>
+      <tr>
+        <td>13:00 - 17:00</td>
+        <td>KDRA Korean Society of Convergent Research on Microneedle Systems Seminar</td>
+        <td>KDRA (Korea Drug Research Association)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="tabs" style="position: sticky; top: 0; z-index: 1000; background-color: #f5f5f5; padding: 10px 0;">
+    <button class="tab-button active" data-tab="conference">Conference</button>
+    <button class="tab-button" data-tab="seminar">Exhibitor Seminar</button>
+  </div>
+
+  
+
+  <div id="seminar" class="tab-content">
+  <h2>26 August (Tue)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Company</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="9">Hall A Seminar Room</td>
+        <td>10:20 - 10:50</td>
+        <td>Pharmaline</td>
+      </tr>
+      <tr><td>11:00 - 11:30</td><td>GATTEFOSSE (MAX Pharma)</td></tr>
+      <tr><td>11:40 - 12:10</td><td>GATTEFOSSE (MAX Pharma)</td></tr>
+      <tr><td>12:20 - 12:50</td><td>Maruzen</td></tr>
+      <tr><td>13:40 - 14:10</td><td>Everspring</td></tr>
+      <tr><td>14:20 - 14:50</td><td>Caregen</td></tr>
+      <tr><td>15:00 - 15:30</td><td>Everspring</td></tr>
+      <tr><td>15:40 - 16:10</td><td>Bloomage</td></tr>
+      <tr><td>16:20 - 16:50</td><td>Bloomage</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organizer</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">The Platz Hall Seminar Room</td>
+        <td>10:20 - 12:50</td>
+        <td>Current Status and Future of Regenerative Bio Technology</td>
+        <td>KFRM (Korea Fund for Regenerative Medicine)</td>
+      </tr>
+      <tr>
+        <td>14:00 - 16:00</td>
+        <td>2025 DIPS Open Innovation Conference</td>
+        <td>KITOX (Korea Institute of Toxicology)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>27 August (Wed)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Company</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">Hall A Seminar Room</td>
+        <td>11:00 - 11:30</td>
+        <td>DiDo Co., Ltd.</td>
+      </tr>
+      <tr><td>11:40 - 12:10</td><td>Radiant Research</td></tr>
+      <tr><td>13:00 - 13:30</td><td>KHFF - KOAT</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organizer</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">The Platz Hall Seminar Room</td>
+        <td>10:20 - 12:10</td>
+        <td>Future Prospects for Overcoming Intractable Diseases</td>
+        <td>KoBIA (Korea Biomedicine Industry Association)</td>
+      </tr>
+      <tr>
+        <td>14:20 - 16:10</td>
+        <td>Localization and Supply Chain Stabilization of Biopharmaceutical Materials</td>
+        <td>KoBIA (Korea Biomedicine Industry Association)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>28 August (Thu)</h2>
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Company</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">Hall A Seminar Room</td>
+        <td>11:00 - 11:30</td>
+        <td>Innate Srl</td>
+      </tr>
+      <tr><td>12:20 - 12:50</td><td>Lonza</td></tr>
+      <tr><td>13:00 - 13:30</td><td>Bision Corporation</td></tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr><th>Location</th><th>Time</th><th>Topic</th><th>Organizer</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">The Platz Hall Seminar Room</td>
+        <td>10:20 - 12:10</td>
+        <td>Global Investment Fair</td>
+        <td>KITOX (Korea Institute of Toxicology)</td>
+      </tr>
+      <tr>
+        <td>13:40 - 15:30</td>
+        <td>Strengthening the K-Bio-Innovation Ecosystem</td>
+        <td>KoBIA (Korea Biomedicine Industry Association)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <script>
+    document.querySelectorAll('.tab-button').forEach(button => {
+      button.addEventListener('click', function () {
+        const tabId = this.getAttribute('data-tab');
+        document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+        document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        this.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
+
