@@ -105,7 +105,20 @@
         white-space: nowrap;
       }
     }
-  </style>
+      .tabs-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #f5f5f5;
+      padding: 10px 0;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+</style>
 </head>
 <body>
   <div class="banner">
@@ -114,7 +127,8 @@
     </a>
   </div>
 
-  <h1>CPHI Korea 2025 Conference & Seminar Time Table</h1>
+  <h1 style="margin-bottom: 10px;">CPHI Korea 2025 Conference & Seminar Time Table</h1>
+</div>
 
 
   <div id="conference" class="tab-content active">
@@ -224,14 +238,11 @@
   </table>
 </div>
 
-<div class="tabs" style="position: sticky; top: 0; z-index: 1000; background-color: #f5f5f5; padding: 10px 0;">
+<div class="tabs-wrapper"><div class="tabs">
     <button class="tab-button active" data-tab="conference">Conference</button>
     <button class="tab-button" data-tab="seminar">Exhibitor Seminar</button>
-  </div>
-
-  
-
-  <div id="seminar" class="tab-content">
+  </div></div>
+<div id="seminar" class="tab-content">
   <h2>26 August (Tue)</h2>
   <table>
     <thead>
@@ -357,4 +368,5 @@
   </script>
 </body>
 </html>
+
 
